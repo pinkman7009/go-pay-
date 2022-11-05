@@ -19,8 +19,8 @@ export default function App() {
         initialRouteName="Login"
         screenOptions={{ headerShown: false }}
       >
-        <Stack.Screen name="Login" component={LoginScreen} />
-        <Stack.Screen name="OTP" component={OTPScreen} />
+        {/* <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="OTP" component={OTPScreen} /> */}
 
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Groups" component={GroupsScreen} />

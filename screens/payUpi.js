@@ -14,7 +14,7 @@ export default function PaymentScreen() {
           <View style={styles.form}>
             <TextInput
               style={styles.input}
-              placeholder="Enter UPI ID"
+              placeholder="eg: @paytm, @okicici"
               // value={otp}
               // onChangeText={(val) => setOtp(val)}
             />
